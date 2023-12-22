@@ -26,7 +26,7 @@ def main():
     # sha1_latest= str(commits[1]["sha"])
 
     if sha_latest:
-        subprocess.call(['sh', '/home/ubuntu/deploy.sh'])
+        subprocess.call(['sh', '/home/ubuntu/com.sh'])
         #print (sha_latest)
         #print(sha_remote)
     else:
